@@ -1,0 +1,65 @@
+<!doctype html> 
+<html lang= en>  
+<meta charset= "utf-8"> 
+<head>
+	<title=""></title>
+	<link rel="stylesheet" type="text/css" href="global.css" />
+	<script src="yotamginzburg.js"></script>
+	<script src="jquery.js"></script>
+	<script src="yquery.js"></script>
+	<script>
+	function move(){
+    var scrollSpeed = 20;
+    var step = 1;
+    var current = 0;
+    var imageHeight = 2247;
+    var headerHeight = 1700;     
+ 
+    var restartPosition = -(imageHeight - headerHeight);
+ 
+    function scrollBg(){
+        current -= step;
+        if (current == restartPosition){
+            current = 0;
+        }
+        $('body').css("background-position","0 " + current + "px");
+    }
+ 
+    var init = setInterval(scrollBg, scrollSpeed);
+}
+	</script>
+
+</head>
+<body onload="move()">
+	<div id= "cont">
+		<header>
+			<nav>
+				<ul>
+					<li id      = "home"><a href="index.html" onmouseover="homeOver()" onmouseout="homeOut()"><img id="homeimage" src="images/home.png" /></a></li>
+					<li><a href = "about.html"><img src="images/about.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href = "media.html"><img src="images/media.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href = "bookings.html"><img src="images/bookings.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href = "testimonials.html"><img src="images/testimonials.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href = "lessons.html"><img src="images/lessons.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id= "main">
+			<p>
+				Yotam's playing was one of the highlights of our wedding. He added a dramatic, elegant touch to our New York City rooftop wedding and the Spanish songs competed beautifully with the wind and muffled street noise below. Yotam helped make our magical day even more memorable--we highly recommend him.<br />
+				<span>-Mark and Alice Hay</span>
+			</p>
+			<p>
+				Thank you for playing at my daughter's wedding. Your renditions of the requested songs were great. I also enjoyed playing with you onstage. I wish I had booked you for my first daughter's wedding!<br />
+				<span>-Antonio Diaz</span>
+			</p>
+			<p>At the Hofstra University Club on Sunday, April 10th 2010, Brooklyn College alumni from all over Long Island were treated to Conservatory of Music alumnus Yotam Ginzburg’s virtuoso performance on classical guitar.  The event was held in honor of Brooklyn College President Karen L. Gould, who recognized and thanked Mr. Ginzburg from the podium.  Many alumni and guests found their way over to him during the afternoon to listen more closely and to chat with him about music and Brooklyn College.  A lovely afternoon was made even more special by the gracious presence and superb talents of Mr. Ginzburg.<br />
+				<span>-Marla Hasten Schreibman,<br />
+					Director, Brooklyn College Office of Alumni Affairs</span>
+			</p>			
+		</div>
+		<footer>
+		</footer>		
+	</div>
+</body>
+</html>

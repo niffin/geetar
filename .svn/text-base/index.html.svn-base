@@ -1,0 +1,50 @@
+<!doctype html> 
+<html lang=en>  
+<meta charset="utf-8"> 
+<head>
+	<title=""></title>
+	<link rel="stylesheet" type="text/css" href="global.css" />
+	<script 
+	src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js">
+	</script>
+	<script>
+
+	</script>
+
+</head>
+<body>
+	<div id="cont">
+		<div id="inner_cont">
+			<header>
+				<img src="images/name.png" />
+				<nav>
+					<ul>
+						<li><a href="about.html"><img src="images/about.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+						<li><a href="media.html"><img src="images/media.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+						<li><a href="bookings.html"><img src="images/bookings.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+						<li><a href="testimonials.html"><img src="images/testimonials.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+						<li><a href="lessons.html"><img src="images/lessons.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					</ul>
+				</nav>
+			</header>
+			<div id="tweet">
+
+			</div>
+			<footer>
+				<a href="http://twitter.com/yotamginzburg">more news</a></li>
+			</footer>
+		</div>			
+	</div>
+	<script 
+	src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js" 
+	type="text/javascript">
+	</script>
+	<script type="text/javascript" charset="utf-8">
+	getTwitters('tweet', { 
+		id: 'yotamginzburg', 
+		count: 7, 
+		template: '%text% <a href="http://twitter.com/%user_screen_name%/statuses/%id%/"></a>'
+	});
+	</script>
+</body>
+</html>

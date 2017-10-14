@@ -1,0 +1,97 @@
+body{
+	margin:0px;
+	text-align:center;
+	background:url('images/background1.jpg') no-repeat;
+	display:none;
+}
+p{
+	text-align:left;
+	padding:0 10px 0 10px;
+}
+#cont{
+	width:900px;
+	margin:auto;
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-right:76px;
+}
+nav li{
+	width:140px;
+	height:35px;
+	display:inline-block;
+	background:#514938;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	margin:0 2px;
+}
+#home{
+	background:none !important;
+	width:20px;
+    position: relative;
+	right:16px;
+}
+#name{
+	margin-left:61px;
+}
+#about, #media, #bookings, #testimonials, #lessons{
+	display:none;
+	width:698px;
+	background:#CECEDE;
+	padding:35px 17px;
+	margin: 3px 108px auto auto;
+	filter:alpha(opacity=90);
+	opacity:0.9;
+}
+.selector{
+	display:none;
+}
+#tweet{
+	display:none;
+	margin-left:34px;
+}
+a img{
+	border:none;
+	padding-top:5px;
+}
+header{
+	display:block;
+	padding-top:20%;
+}
+#tweet{
+	
+}
+#tweet li{
+	display:block;
+	padding-top:15px;
+}
+footer{
+	display:block;
+/*	padding-bottom:30%;*/
+	padding-top:15px;
+}
+footer a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-family:arial, sans-serif;
+}
+footer li{
+	padding:20px;
+	display:inline;
+}
+#news{
+	text-align:left;
+}
+#calendar{
+	text-align:right;
+}
+footer h3{
+	font-style:italic;
+}
+span{
+	text-align:right !important;
+	font-style:italic;
+}

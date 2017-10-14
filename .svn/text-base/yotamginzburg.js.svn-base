@@ -1,0 +1,13 @@
+
+function homeOver(){
+	document.getElementById("homeimage").src = "images/home_over.png"
+}
+function homeOut(){
+	document.getElementById("homeimage").src = "images/home.png"
+}
+function buttonOver(){
+	document.getElementById("butt").src = "images/buttonOn.png"
+}
+function buttonOut(){
+	document.getElementById("butt").src = "images/buttonOff.gif"
+}

@@ -1,0 +1,43 @@
+<!doctype html> 
+<html lang=en>  
+<meta charset="utf-8"> 
+<head>
+	<title=""></title>
+	<link rel="stylesheet" type="text/css" href="global.css" />
+	<script src="yotamginzburg.js"></script>
+	<script src="jquery.js"></script>
+	<script src="yquery.js"></script>
+	<script>
+<<<<<<< .mine
+	$(document).ready(function(){
+	    //$("#main").animate({height:100},"slow");
+		$("#main").slideDown("1000");
+	  });
+=======
+
+>>>>>>> .r17
+	</script>
+
+</head>
+<body>
+	<div id="cont">
+		<header>
+			<nav>
+				<ul>
+					<li id="home"><a href="index.html" onmouseover="homeOver()" onmouseout="homeOut()"><img id="homeimage" src="images/home.png" /></a></li>
+					<li><a href="about.html"><img src="images/about.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href="media.html"><img src="images/media.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href="bookings.html"><img src="images/bookings.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href="testimonials.html"><img src="images/testimonials.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+					<li><a href="lessons.html"><img src="images/lessons.png" onmouseover="this.style.background='#1D759F'" onmouseout="this.style.background='#514938'" /></a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main">
+			<p>Please visit <a href="http://www.afewchords.com">A Few Chords<a> for more information on lessons.</p>
+		</div>
+		<footer>
+		</footer>
+	</div>			
+</body>
+</html>
